@@ -1,34 +1,16 @@
-@charset "utf-8";
-
-@font-face {
-    font-family: horizon;
-    src: url(fonts/horizon.otf);
-}
-
-@font-face {
-    font-family: belleza;
-    src: url(fonts/Belleza-Regular.ttf);
-}
-
-@font-face {
-    font-family: opensans;
-    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
-}
-
-@font-face {
-    font-family: spartan;
-    src: url(fonts/LeagueSpartan-Black.ttf);
-}
+@media screen and (max-width:576px){
 
 * {
     margin: 0px;
     padding: 0px;
 }
+
 body {
     background-color: #232528;
     margin: 0 auto;
-    width: 1200px;
+    width: 576px;
 }
+
 header {
     display: flex;
     flex-direction: row;
@@ -41,7 +23,7 @@ header img {
 }
 
 nav a {
-    font-family: belleza,opensans;
+    font-family: belleza;
     color: #fcfcfcfc;
     display: inline-block;
     align-items: center;
@@ -67,12 +49,16 @@ main {
     display: flex;
     flex-direction: row;
     color: aliceblue;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
+    width: 576px;
 }
 
 article img{
-    width: 500px;
+    width: 0px;
+}
+article#divcad{
+    margin-left: 15px;
 }
 article#divcad input {
     display: flex;
@@ -118,12 +104,12 @@ article#divcad input#roxo:hover {
 
 article#daimg{
     text-align: right;
-    font-size: 17px;
+    font-size: 0px;
 }
 
 article#daimg h1{
     text-align: right;
-    font-size: 40px;
+    font-size: 0px;
 }
 
 article#daimg h2{
@@ -132,12 +118,6 @@ article#daimg h2{
 
 .roxo{
     color: #6320EE;
-}
-article#planos {
-    margin-top: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
 }
 
 footer {
@@ -153,3 +133,9 @@ footer {
     text-align: center;
 }
 
+
+
+
+
+
+}
