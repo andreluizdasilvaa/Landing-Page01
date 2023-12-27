@@ -1,5 +1,5 @@
-@media screen and (max-width:576px){
-
+@media screen and (max-width: 320px){
+    
 * {
     margin: 0px;
     padding: 0px;
@@ -8,7 +8,8 @@
 body {
     background-color: #232528;
     margin: 0 auto;
-    width: 576px;
+    width: 320px;
+
 }
 
 header {
@@ -19,18 +20,22 @@ header {
 
 }
 header img {
-    width: 95px;
+    width: 0px;
 }
 
 nav a {
+    display: flex;
+    display: inline-block;
+    flex-wrap: nowrap;
     font-family: belleza;
     color: #fcfcfcfc;
-    display: inline-block;
     align-items: center;
-    margin: 20px;
+    margin: 5px;
     font-size: 20px;
     text-decoration: none;
 }
+
+
 header nav a:hover {
     color: #6320EE;
     transition: 0.4s;
@@ -40,7 +45,9 @@ header nav a#cadastrar {
     border: 2px solid #6320EE;
     border-radius: 20px;
     padding: 12px 12px; 
+    cursor: pointer;
 }
+
 header nav a#cadastrar:hover {
     background-color: #6320EE;
     transition: 0.6s;
@@ -51,7 +58,7 @@ main {
     color: aliceblue;
     justify-content: space-between;
     margin: 0 auto;
-    width: 576px;
+    width: 320px;
 }
 
 article img{
@@ -65,7 +72,7 @@ article#divcad input {
     flex-direction: column;
     align-items: center;
     border-style: none;
-    width: 300px;
+    width: 230px;
     height: 30px;
     margin-top: 10px;
     border-radius: 20px;
@@ -74,22 +81,22 @@ article#divcad input {
 }
 article#divcad h1 {
     font-family: horizon;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 article#divcad h2 {
     font-family: spartan;
-    font-size: 33px;
+    font-size: 20px;
 }
 
 article#divcad h3 {
     font-family: opensans;
-    width: 500px;
-    font-size: 15px;
+    width: 0px;
+    font-size: 0px;
 }
 
 article#divcad input#roxo {
-    width: 160px;
+    width: 120px;
     height: 50px;
     background-color: #6320EE;
     font-size: 16px;
@@ -113,7 +120,7 @@ article#daimg h1{
 }
 
 article#daimg h2{
-    margin-right: 25px;
+    margin-right: 0px;
 }
 
 .roxo{
@@ -121,22 +128,16 @@ article#daimg h2{
 }
 
 footer {
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-bottom: 0px;
+    font-size: 0px;
     font-family: opensans;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
     background-color: #232528;
     color: white;
     text-align: center;
-    line-height: 17px;
+    height: 0px;
 }
-
-
-
-
-
 
 }
